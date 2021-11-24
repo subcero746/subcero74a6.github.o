@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F60566C71AF46D1C0D576CE332FC6A06E27D85327817902AD3BDEA41AF1FE472FD4F1BD7461F0BDCAB1C0FBF7969BDBBFFD175A15F777B4D95866C195D249975" Timestamp="1D7E0A05527B7BB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Product="Basic Data Services" ShortDescription="Call SystemLink Data Services" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="4d6bf622ec8d4f008b1300b9e383ed57" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="callsystemlinkdataservices3" p3:DistributionCategory="Application" p3:MaintainerEmail="christian00759@gmail.com" p3:MaintainerName="uvm tuxtla" p3:PackageDisplayName="Package" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="1788b49fba854c188399bc723317b9d2" Target="::VireoDevSystem" />
+		<DistributionMemberDependencySource Id="1fba0a78fc6f44cb81fd8d940d638f5a" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::VireoDevSystem::Interactive::Basic Data Services.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="8be3716d63e84a889e507ce83ac94919" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="21.3.0.49152-0+f0" />
+		<DistributionMemberDependencySource Id="429fd472de874d949386b777a3713bad" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::VireoDevSystem::Interactive::Full Data Services App.gcomp" />
+		<DistributionMemberDependencySource Id="47c2a3ee919e469686bb6f4d63f77c56" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Source" RootLocation="ApplicationFiles_64" Target="::VireoDevSystem::Interactive::SubVIs.gcomp" />
+		<DistributionDependencyContent DisplayName="G Web Development Software 2021" Id="7ec3425998514dc8881655f8431d62e3" Included="False" MaintainerName="National Instruments" Name="ni-g-web-development-21.0.0" Version="21.0.0.49243-0+f91" />
+		<DistributionDependencyContent DisplayName="G Web Development Software 2021 Standard Library Files" Id="93c433a172d498795919fd034403895" Included="False" MaintainerName="National Instruments" Name="ni-g-web-development-21.0.0-stdlib-bin" Version="21.0.0.49243-0+f91" />
+		<DistributionDependencyContent DisplayName="NI SystemLink Tag support for G Web Development Software 2021" Id="b28baa9f82644717ba4b6a067c23de1e" Included="False" MaintainerName="National Instruments" Name="ni-systemlink-tag-g-web-development-21.0.0-support" Version="21.1.0.49691-0+f539" />
+		<DistributionDependencyContent DisplayName="NI SystemLink Common support for G Web Development Software 2021" Id="263e05f0550e4ca1ab88b0e45b2942b8" Included="False" MaintainerName="National Instruments" Name="ni-systemlink-common-g-web-development-21.0.0-support" Version="21.1.0.49691-0+f539" />
+		<DistributionDependencyContent DisplayName="G Web Development Software 2021 HTTP Library Files" Id="6dbc64c9cac64f6fbafc5df94779d840" Included="False" MaintainerName="National Instruments" Name="ni-g-web-development-21.0.0-http-bin" Version="21.0.0.49243-0+f91" />
+		<DistributionDependencyContent DisplayName="NI SystemLink Message support for G Web Development Software 2021" Id="245e09aeaa6240dab87facd853f8c3b9" Included="False" MaintainerName="National Instruments" Name="ni-systemlink-message-g-web-development-21.0.0-support" Version="21.1.0.49691-0+f539" />
+		<DistributionMemberDependencySource Id="b17bedb4b3d04cc2929801a4e28d85d5" MemberContentType="{http://www.ni.com/GComponent.xsd}SupportFile" RootLocation="ApplicationFiles_64" Target="::NullTarget::Package.lvdist" />
+		<DistributionMemberDependencySource Id="a1361e4d68ec4607879aab46122b18af" MemberContentType="{http://www.ni.com/GComponent.xsd}SupportFile" RootLocation="ApplicationFiles_64" Target="::NullTarget::Full Data Services App.lvdist" />
+		<DistributionMemberDependencySource Id="c1996c597940467bbfa8644f5efeee32" MemberContentType="{http://www.ni.com/GComponent.xsd}SupportFile" RootLocation="ApplicationFiles_64" Target="::NullTarget::Basic Data Services.lvdist" />
+	</DistributionDefinition>
+</SourceFile>
